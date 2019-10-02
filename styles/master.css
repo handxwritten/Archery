@@ -4,7 +4,7 @@
     font-family: Arial;
   }
   h2 {
-    color: #1b447f;
+    color: white;
     font-family: Arial;
     font-size: 24px;
   }
@@ -25,7 +25,41 @@
     float: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 80px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .centered {
+    color: white;
+    text-align: center;
+    display:inline-block;
+    margin: 3% auto;
+    width: 100vw;
+    float: right;
+  }
+  .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  .column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  .footer {
+    background-image: url("pictures/footerImage.jpg"), url("pictures/archery-academy-logo-white.png");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
