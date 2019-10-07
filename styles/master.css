@@ -23,11 +23,12 @@ body {
 }
 .school-bio {
   display: block;
+  justify-content: center;
   background-color: #1b447f;
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 800px;
+  width: 1000px;
   color: white;
 }
 .contact-info {
@@ -38,6 +39,12 @@ body {
   padding: 20px;
   width: auto;
   text-align: center;
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.video {
 }
 .p {
   color: white;
