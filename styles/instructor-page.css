@@ -28,7 +28,7 @@ a {
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 290px;
+  width: 320px;
 }
 .amy {
   display: block;
@@ -36,7 +36,7 @@ a {
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 290px;
+  width: 320px;
 }
 .nathan {
   display: block;
@@ -44,7 +44,7 @@ a {
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 290px;
+  width: 320px;
 }
 .giap {
   display: block;
@@ -52,7 +52,7 @@ a {
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 290px;
+  width: 320px;
 }
 .classes {
   display: block;
@@ -72,7 +72,7 @@ a {
   background-color: #1b447f;
   padding-top: 30px;
   border: 2px solid #ecb722;
-  padding: 20px;
+  padding: 40px;
   width: auto;
   text-align: center;
 }
@@ -84,8 +84,8 @@ a {
 
 }
 footer {
-  display: block;
-  background-image: url("styles/images/footer-image.jpg");
+
+
   border: 2px solid #1b447f;
 }
 .bio-info {
