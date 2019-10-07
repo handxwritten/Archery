@@ -78,23 +78,33 @@ a {
 }
 .bio-image {
   text-align:center;
-  padding-bottom:10px;}
+  padding-bottom:10px;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #1b447f;
+.grid {
 
-}
-.grid-item {
-  background-color: #1b447f;
-  color: whitel
-  border: 2px solid #ecb722;
-  padding: 20px;
-  font-size: 17px;
-  text-align: left;
 }
 footer {
   display: block;
   background-image: url("styles/images/footer-image.jpg");
+  border: 2px solid #1b447f;
+}
+.bio-info {
+  color: #ecb722;
+  font-size: 24px;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 25px;
+  grid-template-columns: auto;
+  background-color: #1b447f;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #1b447f;
+  border: 1px solid #ecb722;
+  padding: 20px;
+  font-size: 17px;
+  text-align: center;
+  color: white;
 }
