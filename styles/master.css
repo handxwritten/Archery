@@ -4,6 +4,7 @@ body {
   background-image: url("images/footer-image.jpg");
   background-repeat: repeat;
   background-color: black;
+  background-size: contain;
 }
 .container {
   background-color: #1b447f;
@@ -19,7 +20,7 @@ body {
   color: #ecb722;
 }
 .a{
-  color: red;
+  color: white;
 }
 .school-bio {
   display: block;
@@ -28,8 +29,10 @@ body {
   padding-top: 30px;
   border: 2px solid #ecb722;
   padding: 20px;
-  width: 1000px;
+  width: 1500px;
   color: white;
+  text-align: center;
+  margin: auto;
 }
 .contact-info {
   display: block;
@@ -40,11 +43,9 @@ body {
   width: auto;
   text-align: center;
 }
-.flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-}
-.video {
+.iframe {
+display: block;
+margin: 0 auto;
 }
 .p {
   color: white;
